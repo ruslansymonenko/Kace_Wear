@@ -256,6 +256,125 @@ body {
 }
 
 
+/*Additional info*/
+
+.additional_info {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional_info-header {
+    width: 500px;
+    height: 42px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Proto-sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+}
+.additional_info-header h3 {
+    font-size: 16px;
+    text-align: left;
+    margin-left: 33px;
+}
+
+.additional_info-screen {
+    position: relative;
+    margin-top: 60px;
+}
+
+.first_additional_info-header {
+    position: absolute;
+    z-index: 3;
+    top: 11%;
+    right: 25%;
+
+    font-family: 'Proto-sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.first_additional_info-header span {
+    color: #ffff;
+}
+
+.additional_info-container {
+    display: flex;
+}
+
+.first_text_block {
+    max-width: 452px;
+    max-height: 543px;
+    text-align: center;
+    margin: 80px 27px;
+    padding-top: 30px;
+}
+
+.additional_info-container p {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.first_screen-img {
+    max-width: 530px;
+    max-height: 700px;
+    margin-right: 47px;
+    z-index: 1;
+}
+
+.second_text_block {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 831px;
+    margin-right: 40px;
+}
+
+.text_block-images {
+    display: flex;
+    margin-right: 40px;
+}
+
+.additional_info-text {
+    max-height: 374px;
+    max-width: 560px;
+    margin-top: 77px;
+}
+
+.additional_info-text p {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.text_block-images img {
+    width: 270px;
+    height: 380px;
+    margin: 0px 8px;
+}
+
+.second_screen-img {
+    width: 526px;
+    height: 831px;
+    margin: 0 17px;
+}
+
+
 
 /*------------------------------Footer*/
 .footer {
